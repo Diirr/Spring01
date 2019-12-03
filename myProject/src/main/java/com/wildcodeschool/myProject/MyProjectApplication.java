@@ -35,13 +35,17 @@ public class MyProjectApplication {
         return "David Tennant";
     }
 
+    @RequestMapping("/doctor/12")
+    @ResponseBody
+    public String Peter() {
+        return "Peter Capaldi";
+    }
+
+
     @RequestMapping("/doctor/13")
     @ResponseBody
     public String Jodie() {
         return "Jodie Whittaker";
     }
-
-
-
 
 }
